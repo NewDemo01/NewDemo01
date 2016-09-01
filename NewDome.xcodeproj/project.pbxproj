@@ -13,6 +13,10 @@
 		3F057F3F1D7857DA00032B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F057F3D1D7857DA00032B09 /* Main.storyboard */; };
 		3F057F411D7857DA00032B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F057F401D7857DA00032B09 /* Assets.xcassets */; };
 		3F057F441D7857DA00032B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F057F421D7857DA00032B09 /* LaunchScreen.storyboard */; };
+		3F057F7B1D78644D00032B09 /* XuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F057F791D78644D00032B09 /* XuanViewController.m */; };
+		3F057F7C1D78644D00032B09 /* XuanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F057F7A1D78644D00032B09 /* XuanViewController.xib */; };
+		3F057F801D78645A00032B09 /* ZhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F057F7E1D78645A00032B09 /* ZhaoViewController.m */; };
+		3F057F811D78645A00032B09 /* ZhaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F057F7F1D78645A00032B09 /* ZhaoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		3F057F401D7857DA00032B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F057F431D7857DA00032B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F057F451D7857DA00032B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F057F781D78644D00032B09 /* XuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuanViewController.h; sourceTree = "<group>"; };
+		3F057F791D78644D00032B09 /* XuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuanViewController.m; sourceTree = "<group>"; };
+		3F057F7A1D78644D00032B09 /* XuanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XuanViewController.xib; sourceTree = "<group>"; };
+		3F057F7D1D78645A00032B09 /* ZhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhaoViewController.h; sourceTree = "<group>"; };
+		3F057F7E1D78645A00032B09 /* ZhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhaoViewController.m; sourceTree = "<group>"; };
+		3F057F7F1D78645A00032B09 /* ZhaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhaoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				3F057F381D7857DA00032B09 /* AppDelegate.m */,
 				3F057F3A1D7857DA00032B09 /* ViewController.h */,
 				3F057F3B1D7857DA00032B09 /* ViewController.m */,
+				3F057F781D78644D00032B09 /* XuanViewController.h */,
+				3F057F791D78644D00032B09 /* XuanViewController.m */,
+				3F057F7A1D78644D00032B09 /* XuanViewController.xib */,
+				3F057F7D1D78645A00032B09 /* ZhaoViewController.h */,
+				3F057F7E1D78645A00032B09 /* ZhaoViewController.m */,
+				3F057F7F1D78645A00032B09 /* ZhaoViewController.xib */,
 				3F057F3D1D7857DA00032B09 /* Main.storyboard */,
 				3F057F401D7857DA00032B09 /* Assets.xcassets */,
 				3F057F421D7857DA00032B09 /* LaunchScreen.storyboard */,
@@ -136,8 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F057F811D78645A00032B09 /* ZhaoViewController.xib in Resources */,
 				3F057F441D7857DA00032B09 /* LaunchScreen.storyboard in Resources */,
 				3F057F411D7857DA00032B09 /* Assets.xcassets in Resources */,
+				3F057F7C1D78644D00032B09 /* XuanViewController.xib in Resources */,
 				3F057F3F1D7857DA00032B09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +169,8 @@
 			files = (
 				3F057F3C1D7857DA00032B09 /* ViewController.m in Sources */,
 				3F057F391D7857DA00032B09 /* AppDelegate.m in Sources */,
+				3F057F801D78645A00032B09 /* ZhaoViewController.m in Sources */,
+				3F057F7B1D78644D00032B09 /* XuanViewController.m in Sources */,
 				3F057F361D7857DA00032B09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +322,7 @@
 				3F057F4A1D7857DA00032B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
