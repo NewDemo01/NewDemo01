@@ -7,6 +7,8 @@
 //
 
 #import "XuanViewController.h"
+#import "ZhaoViewController.h"
+
 
 @interface XuanViewController ()
 
@@ -18,6 +20,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+
+- (IBAction)gotoZhaoVC:(UIButton *)sender {
+    ZhaoViewController *zhaoVC = [ZhaoViewController new];
+    [self presentViewController:zhaoVC animated:YES completion:nil];
+    
+    
+    
+    
+}
+
+
+- (IBAction)backVC:(UIButton *)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
