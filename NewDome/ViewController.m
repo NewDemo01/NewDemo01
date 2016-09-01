@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XuanViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)enderbtnClick:(UIButton *)sender
+{
+    
+    XuanViewController *xuanVC=[XuanViewController new];
+    [self presentViewController:xuanVC animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
